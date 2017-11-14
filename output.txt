@@ -1,0 +1,21 @@
+Enter book id:
+111
+Enter book Name:
+ponniyin selvan
+Enter author Name:
+kalki
+Enter title Name:
+tamil
+Enter book price:
+450
+Enter Publisher Name:
+karan
+Book Id: 111
+Book Name: ponniyin selvan
+Author Name: kalki
+Title Name: tamil
+Book Price: 450
+Publisher Name: karan
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into LIBRARY_DETAILS (AUTHOR_NAME, BOOK_NAME, BOOK_PRICE, PUBLISHER_NAME, TITLE_NAME, BOOK_ID) values (?, ?, ?, ?, ?, ?)
