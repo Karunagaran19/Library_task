@@ -17,6 +17,7 @@ public class Solution {
 
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
+		
 		int bookId;
 		String bookName;
 		String authorName;
